@@ -151,7 +151,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/copyPipelinesample')]",
+			"name": "[concat(parameters('factoryName'), '/copyPipelinedelete')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -211,7 +211,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/copyPipelinedelete')]",
+			"name": "[concat(parameters('factoryName'), '/copyPipelinesample')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
